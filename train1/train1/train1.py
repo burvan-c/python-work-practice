@@ -1,4 +1,4 @@
-message="hello python world!"
+message="hello python world!"    将双引号中的值赋给变量message
 print(message)
 
 mesage="hello python crash course world"
