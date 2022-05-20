@@ -4,5 +4,10 @@
     <TargetProject>0237e99e-76dc-43c0-8bf9-d1bdd86e350d</TargetProject>
     <FriendlyName>train2</FriendlyName>
   </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\chenbowen\AppData\Local\Temp\train2_20220519.vsp</Filename>
+    </Report>
+  </Reports>
   <UseVTune>false</UseVTune>
 </ProfilingTarget>
