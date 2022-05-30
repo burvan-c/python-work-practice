@@ -67,5 +67,40 @@ print(lst1 is not lst2)
 
 
 #布尔运算符   and(和）   or（或）   not（非）   in（包含）   not in（不包含）
+a,b=1,2
+print(a==1 and b==2)
+print(a==1 and b<2)
+print(a!=1 and b==2)
+print(a!=1 and b!=2)
 
 
+print(a==1 or b==2)
+print(a==1 or b<2)
+print(a!=1 or b==2)
+print(a!=1 or b!=2)
+
+print(not True)
+
+
+s='helloworld'
+print('w' in s)
+print('k' in s)
+print('w' not in s)
+print('k' not in s)
+
+
+
+#位运算
+print(4&8)#按照二进制数每一位进行与运算，得到二进制数转为十进制即为0
+print(4|8)#按照二进制数每一位进行或运算，得到二进制数转为十进制即为12
+
+#<<左移位运算符：按照二进制高位溢出舍弃，低位补0(相当于乘以2）
+print(4<<1)#向左移动一位
+#>>右移位运算符：按照二进制低位溢出舍弃，高位补0（相当于除以2）
+print(4>>1)#向右移动一位
+
+
+
+#运算符优先等级
+#幂 > 乘除取整取余 > 加减 > 左移位右移位 > 与 > 或 > 比较运算符 > and > or > =（有括号时先计算括号）
+#算术运算符 > 位运算 > 比较运算符 > 布尔运算符 > 赋值运算符（没有括号情况下）
